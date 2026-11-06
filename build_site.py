@@ -70,6 +70,8 @@ HEAD = '''<!doctype html>
 ''' + LD + '''
 ''' + style + '''
 <style>
+html,body{margin:0;padding:0}
+img{max-width:100%}
 [hidden]{display:none!important}
 html.ck-open .fab{opacity:0;pointer-events:none}
 .foot-bot button{background:none;border:0;padding:0;color:inherit;font:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
